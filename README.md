@@ -6,7 +6,7 @@
 
 **Online Boutique** is a cloud-native microservices demo application.
 Online Boutique consists of a 10-tier microservices application. The application is a
-web-based e-commerce app where users can browse items,
+web-based  e-commerce app where users can browse items,
 add them to the cart, and purchase them.
 
 **Google uses this application to demonstrate use of technologies like
@@ -23,7 +23,7 @@ If you’re using this demo, please **★Star** this repository to show your int
 Looking for the old Hipster Shop frontend interface? Use the [manifests](https://github.com/GoogleCloudPlatform/microservices-demo/tree/v0.1.5/kubernetes-manifests) in release [v0.1.5](https://github.com/GoogleCloudPlatform/microservices-demo/releases/v0.1.5).
 
 ## Screenshots
-
+## Screenshots
 | Home Page                                                                                                         | Checkout Screen                                                                                                    |
 | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
 | [![Screenshot of store homepage](./docs/img/online-boutique-frontend-1.png)](./docs/img/online-boutique-frontend-1.png) | [![Screenshot of checkout screen](./docs/img/online-boutique-frontend-2.png)](./docs/img/online-boutique-frontend-2.png) |
@@ -169,7 +169,7 @@ We offer the following installation methods:
 ### Option 2: Running on Google Kubernetes Engine (GKE)
 
 > 💡 Recommended if you're using Google Cloud Platform and want to try it on
-> a realistic cluster. **Note**: If your cluster has Workload Identity enabled, 
+> a realistic cluster. **Note**: If your cluster has Workload Identity enabled,
 > [see these instructions](/docs/workload-identity.md)
 
 1.  Create a Google Kubernetes Engine cluster and make sure `kubectl` is pointing
@@ -307,9 +307,9 @@ by deploying the [release manifest](./release) directly to an existing cluster.
    curl -v "http://$INGRESS_HOST"
    ```
 
-### Option 5: Deploying on a Workload Identity-enabled GKE cluster 
+### Option 5: Deploying on a Workload Identity-enabled GKE cluster
 
-See [this doc](/docs/workload-identity.md). 
+See [this doc](/docs/workload-identity.md).
 
 ### Cleanup
 
